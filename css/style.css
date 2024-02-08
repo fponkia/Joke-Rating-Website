@@ -1,0 +1,394 @@
+body {
+    background-color: rgb(12, 0, 80);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.form1{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    text-align: center;
+    border-style: hidden;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    width:85%;
+}
+input{
+    width: 187px;
+    border-radius: 5px;
+    border-style: outset;
+    border-width: 0.4px;
+    border-color: black;
+    
+}
+
+button{
+    background-color: rgb(87, 210, 142);
+    width: 187px;
+    border-radius: 5px;
+    border-style: outset;
+    border-width: 0.4px;
+    cursor: grabbing;
+}
+
+a{
+    color:rgb(232, 232, 143);
+}
+
+img{
+    position: relative;
+    width: 400px;
+    height: 320px;
+}
+
+.login > section, .signup >section, .postdiv> section{
+    float:left;
+    width:60%;
+}
+
+.login > aside, .signup > aside, .postdiv> aside{
+    float:right;
+    width:40%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left:0px;
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+}
+
+.bottom{
+    color:rgb(12, 0, 80);
+}
+
+.info{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#back{
+    color: rgb(232, 232, 143);
+    border-bottom-color: rgb(232, 232, 143);
+}
+
+#sign{
+    background-color: rgb(87, 210, 142);
+    width: 261px;
+    height: 28px;
+    border-radius: 5px;
+    border-style: outset;
+    border-width: 0.4px;
+    cursor: grabbing;
+}
+
+#logout{
+    position:relative;
+    top:2px;
+    right:8px;
+    width:15%;
+    float: right;
+}
+
+#post{
+    background-color:rgb(12, 0, 80); 
+    max-width: 40%;
+    position:relative;
+    top:20%;
+    left:5%;
+    right:30%;
+    height:50%;
+}
+
+#post_form input{
+    width:300px;
+}
+
+#post_form input[name = "character_count"]{
+    margin-top: 0%;
+    text-align: center;
+    font-size: 50%;
+}
+
+textarea{
+    position:flex;
+    margin-left:190px;
+    width: 300px;
+    height: 200px;
+    resize: none;
+    border-radius: 5px;
+}
+
+#post button{
+    position: relative;
+    margin-left:30%;
+    margin-top:2%;
+    text-align: center;
+    align-items: center;
+}
+
+#logout button, #logout a, #homepagelogin{
+    width:fit-content;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(12, 0, 80);
+    color: aliceblue;
+    float:right;
+    margin-top: 10%;
+}
+
+#logout a{
+    text-decoration: none;
+    display: block;
+}
+
+#homepagelogin{
+    text-decoration: none;
+    display: block;
+}
+
+#logout button:hover, #logout a:hover, #homepagelogin:hover{
+    color:red;
+}
+
+#title{
+    width:300px;
+}
+
+#username1{
+    position: absolute;
+    font-size: medium;
+    margin-top:0%;
+    right: 00%;
+}
+
+#header{
+    position: relative;
+    float: left;
+    width:85%;
+}
+#post p{
+    text-align: center;
+    font-weight: lighter;
+}
+
+#headimage{
+    position: absolute;
+    margin-top: 20px;
+    max-width: 80px;
+    height: auto;
+}
+
+#homehead > section, #detailpagehead section{
+    position:relative;
+    float:left;
+    width: 80%;
+}
+
+#homehead > aside, #detailpagehead aside{
+    position: relative;
+    float:right;
+    right:0%;
+    width:20%;
+}
+
+#homehead > section > h1, #detailpagehead h1{
+    margin-left: 80px;
+    text-align: center;
+}
+
+#homepageheadinfo{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 75%;
+}
+
+.home section{
+    position: relative;
+    float:left;
+    height: 300px;
+    width:20%;
+}
+
+.home aside{
+    position: relative;
+    float:right;
+    height: 300px;
+    width:78%;
+}
+
+.listimg{
+    height:auto;
+    width: 200px;
+}
+
+.home article{
+    position: relative;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+.home section p{
+    text-align: center;
+}
+
+#empty{
+    height:500px;
+}
+
+#logouthomepage{
+    width:fit-content;
+    font-size: x-large;
+    background-color: rgb(12, 0, 80);
+    color: aliceblue;
+    float:right;
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:10px;
+}
+
+#logouthomepage:hover{
+    color: red;
+}
+
+#posthomepage{
+    width:fit-content;
+    font-size: x-large;
+    background-color: rgb(12, 0, 80);
+    color: aliceblue;
+    float:left;
+    margin-top: 2%;
+    margin-left: 30%;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#posthomepage:hover{
+    color:green;
+}
+
+#homepage1username, #detailpageusername {
+    text-align:right;
+    font-size: large;
+    margin:0% 10% 0%;
+    text-decoration-line: underline;
+}
+
+#searchbar button{
+    width: fit-content;
+}
+
+#detailpageinfo section{
+    position: relative;
+    float:left;
+    width:80%;
+    margin-left: 20px;
+}
+
+#detailpageinfo aside{
+    position:relative;
+    float:right;
+    width:20%;
+}
+
+#display{
+    position: relative;
+    float:left;
+    width:85%;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 200px 300px 200px 100px;
+    height:90%;
+    row-gap: 10px;
+}
+
+#display strong{
+    color:rgb(232, 232, 143);
+}
+
+#image{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#userimage{
+    width: 150px;
+    height: auto;
+}
+
+#userinfo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#jokedetail{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow-wrap: normal;
+}
+
+#jokedisplay{
+    max-width:2000px;
+    max-height: 300px;
+    resize: none;
+    background-color: rgb(12, 0, 80);
+    color: aliceblue;
+}
+
+#rate{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#rateform button{
+    text-align: center;
+    margin-left: 15%;
+}
+
+#back_homepage{
+    display: block;
+    margin-top:4%;
+    margin-right: 5%;
+    font-size: large;
+    float:right;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+#back_homepage:hover{
+    color: green;
+}
+
+#rateform button[type = "button"]{
+    margin:0%;
+    background-color: aliceblue;
+    width:fit-content;
+}
+
+#rateform input[type = "number"]{
+    width: 50px;
+}
