@@ -7,5 +7,3 @@ Project uses Multiple web application languages such as HTML5, CSS3 and JavaScri
 Project uses PHP and AJAX for the server side coding and implementing a connection between the database and website. Moreover, AJAX is being used to asynchronously update the webpages and create more dynamic and responsive website for the user.
 
 MySQL Database is being implemented to store the users data, with the 2NF and 3NF normalization technique to avoid injection of illegible data and making data more secure from being loss.
-
-The link for the website: http://www.webdev.cs.uregina.ca/~fvp175/Ass_5/homepage.php
