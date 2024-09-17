@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Joke Rating Site Homepage</title>
+        <link rel = "stylesheet" type = "text/css" href="css/style.css" />
+
+        <meta charset="utf-8" name = "author" content = "Foram_Patel"></meta>
+    </head>
+
+    <body>
+        <div id = "homehead">
+            <section>
+                <img id = "headimage" src="images/Laugh.png" alt = "Laughing emoticon logo" ></img>
+            <h1>Joke Rating Site Homepage</h1>
+            </section>
+
+            <aside>
+                <form id = "searchbar" action = "homepage.html" method = "post">
+                    <input name = "search" type = "search" placeholder="type here to search.."></input>
+                    <button type = "submit" value = "GO!">GO!</button>
+                </form>
+                <a href = "login.html" id = "homepagelogin">Login</a>
+            </aside>
+        </div>
+
+        <div>
+            <section id = "homepageheadinfo">
+                <p>Following is the list of the joke that are posted by other users.
+                    You can click on the name of the Joke to see the whole Joke and 
+                    see the information of the poster as well, you can also rate the Joke in the same page. 
+                    But you need to login to your user account to access all these features.
+                </p>
+                <div class = "home">
+                        <div>
+                            <section>
+                                <img class ="listimg" src = "images/Laugh.png" alt = "user avatar"></img>
+                                <p>username</p>
+                            </section>
+                            <aside>
+                                <h3><a href ="login.html">Joke Name overhere</a></h3>
+                                <p>Trees. It was something about the trees. The way they swayed with the wind in unison. The way they shaded the area around them. The sounds of their leaves in the wind and the creaks from the branches as they sway, The trees were making a statement that I just couldn't understand.</p>
+                                <label><strong>Average rating:</strong> (average rating of the joke will be present overhere. No rating status will also be present, if no rating is given. such as 4.0/5.0)</label>
+                            </aside>
+                        </div>
+                        <div>
+                            <section>
+                                <img class = "listimg" src = "images/Laugh.png" alt = "user avatar"></img>
+                                <p>username</p>
+                            </section>
+                            <aside>
+                                <h3><a href ="login.html">Joke Name overhere</a></h3>
+                                <p>First 100 words of the Joke will be present overhere.</p>
+                                <label><strong>Average rating:</strong> (average rating of the joke will be present overhere. No rating status will also be present, if no rating is given. such as "No Rating")</label>
+                            </aside>
+                        </div>
+                    <div id = "empty">
+                        <p>End of the List.</p>
+                    </div>
+                </div>
+            </section>
+
+            <aside>
+
+            </aside>
+        </div>
+
+        <footer>
+            <p>CS 215 * Assignments</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Joke Detail Page</title>
+        <link rel = "stylesheet" type = "text/css" href="css/style.css"></link>
+        <meta charset="utf-8" name="author" content="Foram_Patel"/>
+    </head>
+
+    <body>
+        <div id = "detailpagehead">
+            <section>
+                <img id = "headimage" src="images/Laugh.png" alt = "Laughing emoticon logo" />
+                <h1>Joke Detail Page</h1>
+            </section>
+
+            <aside id = "detailpageheadaside">
+                <p id = "detailpageusername">username</p>
+                <a href = "homepage.html" id = "logouthomepage">Log Out</a>
+                <a href = "homepage1.html" id = "back_homepage">Back to Homepage</a>
+            </aside>
+        </div>
+
+        <div id = "display">
+            <div id = "image">
+                <img id = "userimage" src = "images/Laugh.png" alt = "user avatar" />
+            </div>
+
+            <div id = "userinfo">
+                <p>Following is the information of the individual who has posted the joke.</p>
+                <p><strong>Username:</strong> username</p>
+                <p><strong>First Name:</strong> user</p>
+                <p><strong>Last Name:</strong> name</p>
+                <p><strong>Date of Birth:</strong> dd/mm/yyyy</p>
+            </div>
+
+            <div id = "jokedetail">
+                <p>Full Joke will be displayed over here. Please scroll down to see more things that are avaiable in this webpage, such as rating option.</p>
+            </div>
+
+            <div id = "rate">
+                <p>Please rate the joke here:</p>
+                <p>Current Rating of this joke is: (average will be shown overhere, will also show no rating status if no user has rated.)</p>
+                <form id = "rateform" action = "jokedetailpage.html" method = "get">
+                    <label name = "ratinglabel">Give the Rating:</label>
+                    <select name = "ratingjoke">
+                        <option name = "Notselected" value = "Notselected">Not selected</option>
+                        <option name = "1" value = "1">1</option>
+                        <option name = "2" value = "2">2</option>
+                        <option name = "3" value = "3">3</option>
+                        <option name = "4" value = "4">4</option>
+                        <option name = "5" value = "5">5</option>
+                    </select><br/>
+                    <button type = "submit" name = "submitrating" value = "submit_the_rating">Submit the rating</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>CS 215 * Assignments</p>
+        </footer>
+    </body>
+</html>
